@@ -39,7 +39,7 @@ body{
     display: inline-block;
     font-size: 20px;
     order: 1;
-    color: coral;
+    color: #ffffff;
 }
 .clock span i{
     display: flex;
@@ -69,12 +69,12 @@ body{
 }
 
 .company-image{
-    /* height: 200px;
-    position: relative;
-    right: 10px; */
+    /* height: 200px; */
+    /* position: relative; */
+    /* right: 10px; */ 
     flex: 1;
-    background-image: url('./v1.jpg');
-    background-size: cover;
+    background-image: url('./b1.jpg');
+    background-size: 100%;
     background-position: center;
     position: relative;
     display: flex;
@@ -86,8 +86,8 @@ body{
 .company-name{
     font-size: 20px;
     position: absolute;
-    bottom: 230px;
+    top: 230px;
     font-family: 'Cedarville Cursive', cursive;
-    color: rgb(84, 114, 162);
+    color: rgb(194, 189, 190);
     /* width: 100%; */
 }
